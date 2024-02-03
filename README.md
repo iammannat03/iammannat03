@@ -40,10 +40,12 @@
 <br>
 
 <p align="left">
-  <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=iammannat03&show_icons=true&locale=en&layout=compact" alt="iammannat03" />
   <img align="center" src="https://github-readme-stats.vercel.app/api?username=iammannat03&show_icons=true&locale=en" alt="iammannat03" />
+  &nbsp;
   <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=iammannat03&" alt="iammannat03" />
+  <br><br>
+  <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=iammannat03&show_icons=true&locale=en&layout=compact" alt="iammannat03" />
+  
 </p>
-<br>
-
+<br><br><br><br><br><br><br><br><br>
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=iammannat03&label=Profile%20views&color=0e75b6&style=flat" alt="iammannat03" /> </p>
