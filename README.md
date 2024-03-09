@@ -2,7 +2,7 @@
 <h2 align="left">I'm Mannat</h2>
 
 
-🌱 I’m currently learning<br> **Flutter and React(with Typescript)**
+🌱 I’m currently learning<br> **React(with Typescript)**
 
 👯 I’m looking to collaborate on<br>  **Full-Stack Web and App dev projects**
 
