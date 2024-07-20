@@ -2,7 +2,7 @@
 <h2 align="left">I'm Mannat</h2>
 
 
-🌱 I’m currently learning<br> **Blockchain(ETH)**
+🌱 I’m currently learning<br> **Next.js**
 
 👯 I’m looking to collaborate on<br>  **Full-Stack Web and App dev projects**
 
