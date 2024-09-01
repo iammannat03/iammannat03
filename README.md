@@ -1,19 +1,13 @@
 <h1 align="left">About me:</h1>
-<h2 align="left">I'm Mannat</h2>
-
-
-🌱 I’m currently learning<br> **Next.js**
-
-👯 I’m looking to collaborate on<br>  **Full-Stack Web and App dev projects**
-
-
+<h3 align="left">I'm Mannat</h3>
+<br/>
 <h2 align="left">🌐 Connect with me:</h2>
 <p align="left">
 <a href="https://twitter.com/mannatjaiswal03" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="mannatjaiswal03" height="30" width="40" /></a>
 <a href="https://linkedin.com/in/mannatjaiswal0302" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="mannatjaiswal0302" height="30" width="40" /></a>
 <a href="https://instagram.com/iammannat03" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="iammannat03" height="30" width="40" /></a>
 </p>
-
+<br/>
 <h2 align="left">💻 Tech Stack:</h2>
 <p align="left">
   <img src="https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white">
