@@ -16,19 +16,19 @@ Right now I'm **Technical Secretary** at Microsoft Innovations Club and **Web De
 
 ### Things I've shipped
 
-| | | |
-|---|---|---|
-| **MockMate** | AI interview platform — real-time sessions, feedback scoring | `Next.js` `FastAPI` |
-| **ZeeFit** | Health platform — 100+ APIs across discovery, CRM, appointments | `Node.js` `PostgreSQL` |
-| **On-prem AI platform** | Vector indexing + local LLMs behind full RBAC, no data leaves the building | `Python` `Docker` |
-| **Audio pipeline infra** | Distributed task queues on managed Kubernetes across two clouds | `Celery` `K8s` `GCP` |
-| **Real-time messaging** | Chat + auth for a consumer mobile app, Flutter learned on the job | `Flutter` `Firebase` |
+|                          |                                                                            |                        |
+| ------------------------ | -------------------------------------------------------------------------- | ---------------------- |
+| **MockMate**             | AI interview platform — real-time sessions, feedback scoring               | `Next.js` `FastAPI`    |
+| **ZeeFit**               | Health platform — 100+ APIs across discovery, CRM, appointments            | `Node.js` `PostgreSQL` |
+| **On-prem AI platform**  | Vector indexing + local LLMs behind full RBAC, no data leaves the building | `Python` `Docker`      |
+| **Audio pipeline infra** | Distributed task queues on managed Kubernetes across two clouds            | `Celery` `K8s` `GCP`   |
+| **Real-time messaging**  | Chat + auth for a consumer mobile app, Flutter learned on the job          | `Flutter` `Firebase`   |
 
 <br/>
 
 ### Where I've worked
 
-`Hitachi Payment Services` — AI Engineering Intern
+`Hitachi Payment Services` — AI Engineering Intern.
 `Soundverse AI` — Backend / DevOps Intern
 `WellnessZ` — Full Stack Engineering Intern
 `Neurotask AI` — Full Stack Engineering Intern
