@@ -1,0 +1,201 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" width="900" height="560" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">
+  <defs>
+    <clipPath id="win">
+      <rect x="0" y="0" width="900" height="560" rx="10"/>
+    </clipPath>
+    <style>
+      @keyframes cycle {
+        0%   { opacity: 0 }
+        1.5% { opacity: 1 }
+        18%  { opacity: 1 }
+        20%  { opacity: 0 }
+        100% { opacity: 0 }
+      }
+      @keyframes blink {
+        0%, 49%   { opacity: 1 }
+        50%, 100% { opacity: 0 }
+      }
+      .slide { animation: cycle 15s linear infinite; opacity: 0 }
+      .d1 { animation-delay: 0s }
+      .d2 { animation-delay: 3s }
+      .d3 { animation-delay: 6s }
+      .d4 { animation-delay: 9s }
+      .d5 { animation-delay: 12s }
+      .caret { animation: blink 1.1s steps(1) infinite }
+      .code { font-size: 13.5px; white-space: pre }
+      .ln   { font-size: 12.5px; fill: #484f58 }
+      .tab  { font-size: 12.5px }
+      .kw { fill: #ff7b72 } .fn { fill: #d2a8ff } .st { fill: #a5d6ff }
+      .cm { fill: #8b949e } .pl { fill: #c9d1d9 } .nm { fill: #79c0ff }
+      .ty { fill: #7ee787 } .op { fill: #ff7b72 }
+    </style>
+  </defs>
+
+  <g clip-path="url(#win)">
+    <!-- window body -->
+    <rect x="0" y="0" width="900" height="560" fill="#0d1117"/>
+
+    <!-- title bar -->
+    <rect x="0" y="0" width="900" height="36" fill="#161b22"/>
+    <circle cx="20" cy="18" r="6" fill="#ff5f57"/>
+    <circle cx="40" cy="18" r="6" fill="#febc2e"/>
+    <circle cx="60" cy="18" r="6" fill="#28c840"/>
+    <text x="450" y="23" text-anchor="middle" font-size="12.5" fill="#7d8590">iammannat03 — ~/workspace</text>
+
+    <!-- activity bar -->
+    <rect x="0" y="36" width="44" height="524" fill="#0d1117"/>
+    <line x1="44" y1="36" x2="44" y2="560" stroke="#21262d" stroke-width="1"/>
+    <g fill="none" stroke="#7d8590" stroke-width="1.6" stroke-linecap="round">
+      <rect x="15" y="60" width="15" height="13" rx="1.5" stroke="#e6edf3"/>
+      <path d="M15 96h15M15 102h15M15 108h10"/>
+      <circle cx="21" cy="136" r="5"/><path d="M25 140l6 6"/>
+      <path d="M17 168v14M17 168h11a3 3 0 0 1 0 6H17"/>
+    </g>
+
+    <!-- tab bar -->
+    <rect x="44" y="36" width="856" height="36" fill="#010409"/>
+    <line x1="44" y1="72" x2="900" y2="72" stroke="#21262d" stroke-width="1"/>
+
+    <!-- inactive tab labels -->
+    <g class="tab" fill="#7d8590">
+      <circle cx="60"  cy="54" r="4" fill="#3178c6"/><text x="72"  y="58">frontend.tsx</text>
+      <circle cx="184" cy="54" r="4" fill="#00add8"/><text x="196" y="58">backend.go</text>
+      <circle cx="300" cy="54" r="4" fill="#00b4ab"/><text x="312" y="58">mobile.dart</text>
+      <circle cx="420" cy="54" r="4" fill="#aa6746"/><text x="432" y="58">contract.sol</text>
+      <circle cx="544" cy="54" r="4" fill="#cb171e"/><text x="556" y="58">infra.yaml</text>
+    </g>
+
+    <!-- active tab highlights -->
+    <g class="slide d1">
+      <rect x="44" y="36" width="124" height="36" fill="#0d1117"/>
+      <rect x="44" y="36" width="124" height="2" fill="#58a6ff"/>
+      <circle cx="60" cy="54" r="4" fill="#3178c6"/>
+      <text class="tab" x="72" y="58" fill="#e6edf3">frontend.tsx</text>
+    </g>
+    <g class="slide d2">
+      <rect x="168" y="36" width="116" height="36" fill="#0d1117"/>
+      <rect x="168" y="36" width="116" height="2" fill="#58a6ff"/>
+      <circle cx="184" cy="54" r="4" fill="#00add8"/>
+      <text class="tab" x="196" y="58" fill="#e6edf3">backend.go</text>
+    </g>
+    <g class="slide d3">
+      <rect x="284" y="36" width="120" height="36" fill="#0d1117"/>
+      <rect x="284" y="36" width="120" height="2" fill="#58a6ff"/>
+      <circle cx="300" cy="54" r="4" fill="#00b4ab"/>
+      <text class="tab" x="312" y="58" fill="#e6edf3">mobile.dart</text>
+    </g>
+    <g class="slide d4">
+      <rect x="404" y="36" width="124" height="36" fill="#0d1117"/>
+      <rect x="404" y="36" width="124" height="2" fill="#58a6ff"/>
+      <circle cx="420" cy="54" r="4" fill="#aa6746"/>
+      <text class="tab" x="432" y="58" fill="#e6edf3">contract.sol</text>
+    </g>
+    <g class="slide d5">
+      <rect x="528" y="36" width="116" height="36" fill="#0d1117"/>
+      <rect x="528" y="36" width="116" height="2" fill="#58a6ff"/>
+      <circle cx="544" cy="54" r="4" fill="#cb171e"/>
+      <text class="tab" x="556" y="58" fill="#e6edf3">infra.yaml</text>
+    </g>
+
+    <!-- line numbers -->
+    <g class="ln" text-anchor="end">
+      <text x="80" y="106">1</text><text x="80" y="130">2</text><text x="80" y="154">3</text>
+      <text x="80" y="178">4</text><text x="80" y="202">5</text><text x="80" y="226">6</text>
+      <text x="80" y="250">7</text><text x="80" y="274">8</text><text x="80" y="298">9</text>
+      <text x="80" y="322">10</text><text x="80" y="346">11</text><text x="80" y="370">12</text>
+      <text x="80" y="394">13</text>
+    </g>
+
+    <!-- ===== frontend.tsx ===== -->
+    <g class="slide d1 code" xml:space="preserve">
+      <text x="96" y="106"><tspan class="kw">export default function</tspan><tspan class="fn"> Profile</tspan><tspan class="pl">({ user }: </tspan><tspan class="ty">Props</tspan><tspan class="pl">) {</tspan></text>
+      <text x="96" y="130"><tspan class="pl">  </tspan><tspan class="kw">const</tspan><tspan class="pl"> { data, loading } = </tspan><tspan class="fn">useQuery</tspan><tspan class="pl">(</tspan><tspan class="nm">GET_USER</tspan><tspan class="pl">, {</tspan></text>
+      <text x="96" y="154"><tspan class="pl">    variables: { id: user.id },</tspan></text>
+      <text x="96" y="178"><tspan class="pl">  });</tspan></text>
+      <text x="96" y="226"><tspan class="pl">  </tspan><tspan class="kw">if</tspan><tspan class="pl"> (loading) </tspan><tspan class="kw">return</tspan><tspan class="pl"> &lt;</tspan><tspan class="ty">Skeleton</tspan><tspan class="pl"> /&gt;;</tspan></text>
+      <text x="96" y="274"><tspan class="pl">  </tspan><tspan class="kw">return</tspan><tspan class="pl"> (</tspan></text>
+      <text x="96" y="298"><tspan class="pl">    &lt;</tspan><tspan class="ty">ProfileCard</tspan><tspan class="pl"> name=</tspan><tspan class="pl">{data.name} stack={data.stack} /&gt;</tspan></text>
+      <text x="96" y="322"><tspan class="pl">  );</tspan></text>
+      <text x="96" y="346"><tspan class="pl">}</tspan></text>
+      <rect class="caret" x="104" y="358" width="8" height="16" fill="#58a6ff"/>
+    </g>
+
+    <!-- ===== backend.go ===== -->
+    <g class="slide d2 code" xml:space="preserve">
+      <text x="96" y="106"><tspan class="kw">func</tspan><tspan class="pl"> (s *</tspan><tspan class="ty">Server</tspan><tspan class="pl">) </tspan><tspan class="fn">Search</tspan><tspan class="pl">(w http.</tspan><tspan class="ty">ResponseWriter</tspan><tspan class="pl">, r *http.</tspan><tspan class="ty">Request</tspan><tspan class="pl">) {</tspan></text>
+      <text x="96" y="130"><tspan class="pl">    ctx, cancel := context.</tspan><tspan class="fn">WithTimeout</tspan><tspan class="pl">(r.</tspan><tspan class="fn">Context</tspan><tspan class="pl">(), </tspan><tspan class="nm">5</tspan><tspan class="pl">*time.Second)</tspan></text>
+      <text x="96" y="154"><tspan class="pl">    </tspan><tspan class="kw">defer</tspan><tspan class="pl"> </tspan><tspan class="fn">cancel</tspan><tspan class="pl">()</tspan></text>
+      <text x="96" y="202"><tspan class="pl">    hits, err := s.index.</tspan><tspan class="fn">Query</tspan><tspan class="pl">(ctx, r.URL.</tspan><tspan class="fn">Query</tspan><tspan class="pl">().</tspan><tspan class="fn">Get</tspan><tspan class="pl">(</tspan><tspan class="st">"q"</tspan><tspan class="pl">))</tspan></text>
+      <text x="96" y="226"><tspan class="pl">    </tspan><tspan class="kw">if</tspan><tspan class="pl"> err != </tspan><tspan class="nm">nil</tspan><tspan class="pl"> {</tspan></text>
+      <text x="96" y="250"><tspan class="pl">        http.</tspan><tspan class="fn">Error</tspan><tspan class="pl">(w, </tspan><tspan class="st">"search failed"</tspan><tspan class="pl">, </tspan><tspan class="nm">500</tspan><tspan class="pl">)</tspan></text>
+      <text x="96" y="274"><tspan class="pl">        </tspan><tspan class="kw">return</tspan></text>
+      <text x="96" y="298"><tspan class="pl">    }</tspan></text>
+      <text x="96" y="346"><tspan class="pl">    json.</tspan><tspan class="fn">NewEncoder</tspan><tspan class="pl">(w).</tspan><tspan class="fn">Encode</tspan><tspan class="pl">(hits)</tspan></text>
+      <text x="96" y="370"><tspan class="pl">}</tspan></text>
+      <rect class="caret" x="104" y="382" width="8" height="16" fill="#58a6ff"/>
+    </g>
+
+    <!-- ===== mobile.dart ===== -->
+    <g class="slide d3 code" xml:space="preserve">
+      <text x="96" y="106"><tspan class="kw">class</tspan><tspan class="pl"> </tspan><tspan class="ty">ChatRoom</tspan><tspan class="pl"> </tspan><tspan class="kw">extends</tspan><tspan class="pl"> </tspan><tspan class="ty">StatelessWidget</tspan><tspan class="pl"> {</tspan></text>
+      <text x="96" y="130"><tspan class="pl">  </tspan><tspan class="cm">@override</tspan></text>
+      <text x="96" y="154"><tspan class="pl">  </tspan><tspan class="ty">Widget</tspan><tspan class="pl"> </tspan><tspan class="fn">build</tspan><tspan class="pl">(</tspan><tspan class="ty">BuildContext</tspan><tspan class="pl"> context) {</tspan></text>
+      <text x="96" y="178"><tspan class="pl">    </tspan><tspan class="kw">return</tspan><tspan class="pl"> </tspan><tspan class="ty">StreamBuilder</tspan><tspan class="pl">&lt;</tspan><tspan class="ty">List</tspan><tspan class="pl">&lt;</tspan><tspan class="ty">Message</tspan><tspan class="pl">&gt;&gt;(</tspan></text>
+      <text x="96" y="202"><tspan class="pl">      stream: chat.</tspan><tspan class="fn">watchRoom</tspan><tspan class="pl">(roomId),</tspan></text>
+      <text x="96" y="226"><tspan class="pl">      builder: (ctx, snap) =&gt; </tspan><tspan class="ty">MessageList</tspan><tspan class="pl">(</tspan></text>
+      <text x="96" y="250"><tspan class="pl">        messages: snap.data ?? </tspan><tspan class="kw">const</tspan><tspan class="pl"> [],</tspan></text>
+      <text x="96" y="274"><tspan class="pl">      ),</tspan></text>
+      <text x="96" y="298"><tspan class="pl">    );</tspan></text>
+      <text x="96" y="322"><tspan class="pl">  }</tspan></text>
+      <text x="96" y="346"><tspan class="pl">}</tspan></text>
+      <rect class="caret" x="104" y="358" width="8" height="16" fill="#58a6ff"/>
+    </g>
+
+    <!-- ===== contract.sol ===== -->
+    <g class="slide d4 code" xml:space="preserve">
+      <text x="96" y="106"><tspan class="kw">contract</tspan><tspan class="pl"> </tspan><tspan class="ty">Vault</tspan><tspan class="pl"> {</tspan></text>
+      <text x="96" y="130"><tspan class="pl">    </tspan><tspan class="kw">mapping</tspan><tspan class="pl">(</tspan><tspan class="ty">address</tspan><tspan class="pl"> =&gt; </tspan><tspan class="ty">uint256</tspan><tspan class="pl">) </tspan><tspan class="kw">public</tspan><tspan class="pl"> balances;</tspan></text>
+      <text x="96" y="178"><tspan class="pl">    </tspan><tspan class="kw">event</tspan><tspan class="pl"> </tspan><tspan class="fn">Deposit</tspan><tspan class="pl">(</tspan><tspan class="ty">address</tspan><tspan class="pl"> </tspan><tspan class="kw">indexed</tspan><tspan class="pl"> from, </tspan><tspan class="ty">uint256</tspan><tspan class="pl"> amount);</tspan></text>
+      <text x="96" y="226"><tspan class="pl">    </tspan><tspan class="kw">function</tspan><tspan class="pl"> </tspan><tspan class="fn">deposit</tspan><tspan class="pl">() </tspan><tspan class="kw">external payable</tspan><tspan class="pl"> {</tspan></text>
+      <text x="96" y="250"><tspan class="pl">        </tspan><tspan class="fn">require</tspan><tspan class="pl">(msg.value &gt; </tspan><tspan class="nm">0</tspan><tspan class="pl">, </tspan><tspan class="st">"zero deposit"</tspan><tspan class="pl">);</tspan></text>
+      <text x="96" y="274"><tspan class="pl">        balances[msg.sender] += msg.value;</tspan></text>
+      <text x="96" y="298"><tspan class="pl">        </tspan><tspan class="kw">emit</tspan><tspan class="pl"> </tspan><tspan class="fn">Deposit</tspan><tspan class="pl">(msg.sender, msg.value);</tspan></text>
+      <text x="96" y="322"><tspan class="pl">    }</tspan></text>
+      <text x="96" y="346"><tspan class="pl">}</tspan></text>
+      <rect class="caret" x="104" y="358" width="8" height="16" fill="#58a6ff"/>
+    </g>
+
+    <!-- ===== infra.yaml ===== -->
+    <g class="slide d5 code" xml:space="preserve">
+      <text x="96" y="106"><tspan class="ty">apiVersion</tspan><tspan class="pl">: </tspan><tspan class="st">apps/v1</tspan></text>
+      <text x="96" y="130"><tspan class="ty">kind</tspan><tspan class="pl">: </tspan><tspan class="st">Deployment</tspan></text>
+      <text x="96" y="154"><tspan class="ty">metadata</tspan><tspan class="pl">:</tspan></text>
+      <text x="96" y="178"><tspan class="pl">  </tspan><tspan class="ty">name</tspan><tspan class="pl">: </tspan><tspan class="st">celery-worker</tspan></text>
+      <text x="96" y="202"><tspan class="ty">spec</tspan><tspan class="pl">:</tspan></text>
+      <text x="96" y="226"><tspan class="pl">  </tspan><tspan class="ty">replicas</tspan><tspan class="pl">: </tspan><tspan class="nm">3</tspan></text>
+      <text x="96" y="250"><tspan class="pl">  </tspan><tspan class="ty">template</tspan><tspan class="pl">:</tspan></text>
+      <text x="96" y="274"><tspan class="pl">    </tspan><tspan class="ty">spec</tspan><tspan class="pl">:</tspan></text>
+      <text x="96" y="298"><tspan class="pl">      </tspan><tspan class="ty">containers</tspan><tspan class="pl">:</tspan></text>
+      <text x="96" y="322"><tspan class="pl">        </tspan><tspan class="op">-</tspan><tspan class="pl"> </tspan><tspan class="ty">name</tspan><tspan class="pl">: </tspan><tspan class="st">worker</tspan></text>
+      <text x="96" y="346"><tspan class="pl">          </tspan><tspan class="ty">image</tspan><tspan class="pl">: </tspan><tspan class="st">ghcr.io/iammannat03/worker:2.1.0</tspan></text>
+      <text x="96" y="370"><tspan class="pl">          </tspan><tspan class="ty">resources</tspan><tspan class="pl">:</tspan></text>
+      <text x="96" y="394"><tspan class="pl">            </tspan><tspan class="ty">limits</tspan><tspan class="pl">: { </tspan><tspan class="ty">cpu</tspan><tspan class="pl">: </tspan><tspan class="st">"1"</tspan><tspan class="pl">, </tspan><tspan class="ty">memory</tspan><tspan class="pl">: </tspan><tspan class="st">1Gi</tspan><tspan class="pl"> }</tspan></text>
+      <rect class="caret" x="104" y="406" width="8" height="16" fill="#58a6ff"/>
+    </g>
+
+    <!-- status bar -->
+    <rect x="0" y="524" width="900" height="36" fill="#161b22"/>
+    <line x1="0" y1="524" x2="900" y2="524" stroke="#21262d" stroke-width="1"/>
+    <text x="20" y="547" font-size="12" fill="#7d8590">⎇ main</text>
+    <text x="96" y="547" font-size="12" fill="#7d8590">Mannat Jaiswal · software engineer</text>
+    <g font-size="12" text-anchor="end">
+      <text class="slide d1" x="880" y="547" fill="#58a6ff">TypeScript · React</text>
+      <text class="slide d2" x="880" y="547" fill="#58a6ff">Go · net/http</text>
+      <text class="slide d3" x="880" y="547" fill="#58a6ff">Dart · Flutter</text>
+      <text class="slide d4" x="880" y="547" fill="#58a6ff">Solidity · Foundry</text>
+      <text class="slide d5" x="880" y="547" fill="#58a6ff">YAML · Kubernetes</text>
+    </g>
+
+    <rect x="0.5" y="0.5" width="899" height="559" rx="10" fill="none" stroke="#30363d"/>
+  </g>
+</svg>
