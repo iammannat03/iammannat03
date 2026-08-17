@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/ide.svg" alt="Mannat Jaiswal — software engineer" width="900"/>
+<img src="https://raw.githubusercontent.com/iammannat03/iammannat03/main/assets/ide.svg" alt="Mannat Jaiswal — software engineer" width="900"/>
 
 </div>
 
