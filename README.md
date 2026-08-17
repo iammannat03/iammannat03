@@ -1,21 +1,60 @@
-<h1 align="left">About me:</h1>
-<h3 align="left">I'm Mannat</h3>
+<div align="center">
+
+<img src="./assets/ide.svg" alt="Mannat Jaiswal — software engineer" width="900"/>
+
+</div>
+
 <br/>
-<h2 align="left">🌐 Connect with me:</h2>
-<p align="left">
-<a href="https://twitter.com/mannatjaiswal03" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="mannatjaiswal03" height="30" width="40" /></a>
-<a href="https://linkedin.com/in/mannatjaiswal0302" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="mannatjaiswal0302" height="30" width="40" /></a>
-<a href="https://instagram.com/iammannat03" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="iammannat03" height="30" width="40" /></a>
-</p>
+
+### Hey, I'm Mannat 👋
+
+Software engineer, CS undergrad at **VIT Chennai**. I've spent the last two years bouncing between startups across fintech, health-tech, AI and consumer products — which is a long way of saying I'll pick up whatever the problem needs. Web, mobile, backend, infra, contracts. The tabs above aren't a bit; that's roughly what a normal week looks like.
+
+Right now I'm **Technical Secretary** at Microsoft Innovations Club and **Web Development Lead** at GDG on Campus, VIT Chennai.
+
 <br/>
-<p align="left">
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=iammannat03&show_icons=true&locale=en" alt="iammannat03" />
-  &nbsp;
-  <br><br>
-  <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=iammannat03&" alt="iammannat03" />
-  <br><br>
-  <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=iammannat03&show_icons=true&locale=en&layout=compact" alt="iammannat03" />
-  
-</p>
-<br><br><br><br><br><br><br><br><br>
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=iammannat03&label=Profile%20views&color=0e75b6&style=flat" alt="iammannat03" /> </p>
+
+### Things I've shipped
+
+| | | |
+|---|---|---|
+| **MockMate** | AI interview platform — real-time sessions, feedback scoring | `Next.js` `FastAPI` |
+| **ZeeFit** | Health platform — 100+ APIs across discovery, CRM, appointments | `Node.js` `PostgreSQL` |
+| **On-prem AI platform** | Vector indexing + local LLMs behind full RBAC, no data leaves the building | `Python` `Docker` |
+| **Audio pipeline infra** | Distributed task queues on managed Kubernetes across two clouds | `Celery` `K8s` `GCP` |
+| **Real-time messaging** | Chat + auth for a consumer mobile app, Flutter learned on the job | `Flutter` `Firebase` |
+
+<br/>
+
+### Where I've worked
+
+`Hitachi Payment Services` — AI Engineering Intern
+`Soundverse AI` — Backend / DevOps Intern
+`WellnessZ` — Full Stack Engineering Intern
+`Neurotask AI` — Full Stack Engineering Intern
+`dappunk` — Flutter Developer Intern
+
+<br/>
+
+### Toolbox
+
+<img src="https://skillicons.dev/icons?i=ts,js,python,go,java,cpp,dart,solidity&theme=dark" />
+<br/>
+<img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,flutter,nodejs,fastapi,spring,express&theme=dark" />
+<br/>
+<img src="https://skillicons.dev/icons?i=postgres,mongodb,docker,kubernetes,gcp,azure,rabbitmq,firebase,git&theme=dark" />
+
+<br/><br/>
+
+<div align="center">
+
+<img height="160em" src="https://github-readme-stats.vercel.app/api?username=iammannat03&show_icons=true&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff"/>
+<img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=iammannat03&layout=compact&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9"/>
+
+<br/><br/>
+
+<a href="https://linkedin.com/in/YOUR-HANDLE"><img src="https://img.shields.io/badge/LinkedIn-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+<a href="https://twitter.com/YOUR-HANDLE"><img src="https://img.shields.io/badge/Twitter-1d9bf0?style=for-the-badge&logo=x&logoColor=white"/></a>
+<a href="mailto:YOUR-EMAIL"><img src="https://img.shields.io/badge/Email-ea4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+
+</div>
