@@ -20,7 +20,7 @@ I go wherever the stack needs me: backend, frontend, mobile, infra, AI.
     </td>
     <td valign="middle">
       <a href="https://git.io/streak-stats">
-        <img src="https://streak-stats.demolab.com/?user=iammannat03&theme=dark" width="100%" />
+        <img src="./profile/streak.svg" width="100%" />
       </a>
     </td>
   </tr>
