@@ -11,14 +11,14 @@
 Full-stack, no speciality. Building things, mostly on purpose.
 I go wherever the stack needs me: backend, frontend, mobile, infra, AI.
 
-<table align="center">
+<table align="center" style="border:none; border-collapse:collapse;">
   <tr>
-    <td valign="middle">
+    <td valign="middle" style="border:none;">
       <a href="https://spotify-github-profile.kittinanx.com/api/view?uid=31ea5vjxagftbzxowm3vc54sa6oq&redirect=true">
         <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=31ea5vjxagftbzxowm3vc54sa6oq&cover_image=true&theme=spotify-embed&show_offline=false&background_color=121212&interchange=true&profanity=false&hide_remaster=false&mode=dark&bar_color=53b14f&bar_color_cover=false" width="100%" />
       </a>
     </td>
-    <td valign="middle">
+    <td valign="middle" style="border:none;">
       <a href="https://git.io/streak-stats">
         <img src="./profile/streak.svg" width="100%" />
       </a>
