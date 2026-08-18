@@ -11,7 +11,7 @@
 Full-stack, no speciality. Building things, mostly on purpose.
 I go wherever the stack needs me: backend, frontend, mobile, infra, AI.
 
-<table align="center" style="border:none; border-collapse:collapse;">
+<table align="center" border="0" style="border:none; border-collapse:collapse;">
   <tr>
     <td valign="middle" style="border:none;">
       <a href="https://spotify-github-profile.kittinanx.com/api/view?uid=31ea5vjxagftbzxowm3vc54sa6oq&redirect=true">
